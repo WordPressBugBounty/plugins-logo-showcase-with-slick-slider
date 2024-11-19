@@ -2,9 +2,9 @@
 Contributors: infornweb, pluginandplay
 Tags: logo showcase, logo slider, logo carousel, client logo slider, client logo carousel
 Requires at least: 4.7
-Tested up to: 6.6.1
+Tested up to: 6.7
 Requires PHP: 5.4
-Stable tag: 3.2.6
+Stable tag: 3.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -150,11 +150,15 @@ Yes, Logo Showcase with Slick Slider will work with any WordPress themes. If you
 
 == Changelog ==
 
-= 3.2.5 (01 Aug, 2024) =
+= 3.2.7 (20 Nov, 2024) =
+* [*] Check compatibility with WordPress 6.7
+* [*] Update Freemius SDK to latest version 2.9.0
+
+= 3.2.6 (01 Aug, 2024) =
 * [*] Check compatibility with WordPress 6.6
 * [*] Update Freemius SDK to latest version 2.7.3
 
-= 3.2.4 (05 May, 2024) =
+= 3.2.5 (05 May, 2024) =
 * [*] Improved plugin text domain code.
 * [*] Bump minimum WordPress version to 4.7
 * [*] Check compatibility with WordPress 6.5.2

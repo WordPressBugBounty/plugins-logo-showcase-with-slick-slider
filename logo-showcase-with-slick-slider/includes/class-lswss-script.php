@@ -31,18 +31,24 @@ class Lswss_Scripts {
 
 		global $post_type, $typenow;
 		
+		/***** Styles *****/
+		// Registring admin style
+		wp_register_style( 'lswssp-admin-style', LSWSS_URL.'assets/css/lswss-admin.css', array(), LSWSS_VERSION );
+		
+		// FS Pricing CSS
+		if( LSWSS_POST_TYPE.'_page_logo-showcase-with-slick-slider-pricing' == $hook_suffix ) {
+			wp_register_style( 'lswssp-fs-pricing', LSWSS_URL . 'assets/css/fs-pricing.css', array(), LSWSS_VERSION );
+			wp_enqueue_style( 'lswssp-fs-pricing' );
+		}
+
+
+		/***** Scripts *****/
 		// For VC Front End Page Editing
 		if( function_exists('vc_is_frontend_editor') && vc_is_frontend_editor() ) {
 			wp_register_script( 'lswssp-vc-frontend', LSWSS_URL . 'assets/js/vc/lswss-vc-frontend.js', array(), LSWSS_VERSION, true );
 			wp_enqueue_script( 'lswssp-vc-frontend' );
 		}
 
-		/***** Styles *****/
-		// Registring admin style
-		wp_register_style( 'lswssp-admin-style', LSWSS_URL.'assets/css/lswss-admin.css', array(), LSWSS_VERSION );
-
-
-		/***** Scripts *****/
 		// Registring admin script
 		wp_register_script( 'lswssp-admin-script', LSWSS_URL.'assets/js/lswss-admin.js', array('jquery'), LSWSS_VERSION, true );
 		wp_localize_script( 'lswssp-admin-script', 'LswssAdmin', array(
@@ -89,7 +95,7 @@ class Lswss_Scripts {
 		wp_enqueue_style( 'lswssp-public-css' );
 
 
-		/* Scripts */
+		/***** Scripts  *****/
 		// Registring Slick Slider Script
 		if( ! wp_script_is( 'jquery-slick', 'registered' ) ) {
 			wp_register_script( 'jquery-slick', LSWSS_URL.'assets/js/slick.min.js', array('jquery'), LSWSS_VERSION, true );
