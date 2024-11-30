@@ -34,9 +34,10 @@ function lswss_render_logo_showcase( $atts, $content = '' ) {
 	}
 
 	// Getting logo display type
-	$prefix			= LSWSS_META_PREFIX;
-	$display_type 	= get_post_meta( $atts['id'], $prefix.'display_type', true );
-	$display_type	= ! empty( $display_type ) ? $display_type : 'slider';
+	$prefix				= LSWSS_META_PREFIX;
+	$display_type_list	= lswss_display_type();
+	$display_type 		= get_post_meta( $atts['id'], $prefix.'display_type', true );
+	$display_type		= isset( $display_type_list[ $display_type ] ) ? $display_type : 'slider';
 
 	// Template Variables
 	$atts['display_type']	= $display_type;

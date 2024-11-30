@@ -8,7 +8,7 @@
  * Domain Path: /languages/
  * Requires at least: 4.7
  * Requires PHP: 5.4
- * Version: 3.2.7
+ * Version: 3.2.8
  * Author URI: https://premium.infornweb.com
  *
  * @package Logo Showcase with Slick Slider
@@ -55,13 +55,14 @@ if ( ! class_exists( 'Lswss_Logo_Showcase' ) )  :
 				self::$instance = new Lswss_Logo_Showcase();
 				self::$instance->setup_constants();
 
-				// For translation
-				add_action( 'plugins_loaded', array( self::$instance, 'lswss_plugins_loaded' ) );
-
 				self::$instance->includes(); // Including required files
 				self::$instance->init_hooks();
 
 				self::$instance->scripts = new Lswss_Scripts(); // Script Class
+
+				// For translation
+				add_action( 'init', array( self::$instance, 'lswss_init_processes' ) );
+				add_action( 'plugins_loaded', array( self::$instance, 'lswss_plugins_loaded' ) );
 			}
 
 			return self::$instance;
@@ -87,7 +88,7 @@ if ( ! class_exists( 'Lswss_Logo_Showcase' ) )  :
 		 */
 		private function setup_constants() {
 
-			$this->define( 'LSWSS_VERSION', '3.2.7' ); // Version of plugin
+			$this->define( 'LSWSS_VERSION', '3.2.8' ); // Version of plugin
 			$this->define( 'LSWSS_FILE', __FILE__ );
 			$this->define( 'LSWSS_DIR', dirname( __FILE__ ) );
 			$this->define( 'LSWSS_URL', plugin_dir_url( __FILE__ ) );
@@ -125,14 +126,22 @@ if ( ! class_exists( 'Lswss_Logo_Showcase' ) )  :
 		}
 
 		/**
+		 * Prior init processes
+		 *
+		 * @since 1.0
+		 */
+		public function lswss_init_processes() {
+
+			// Load Plugin Text Domain
+			$this->lswss_load_textdomain();
+		}
+
+		/**
 		 * Do stuff once all the plugin has been loaded
 		 *
 		 * @since 1.0
 		 */
 		public function lswss_plugins_loaded() {
-
-			// Load Plugin Text Domain
-			$this->lswss_load_textdomain();
 
 			// Plugin Menu Label
 			$this->define( 'LSWSS_SCREEN_ID', sanitize_title(__('Logo Showcase', 'logo-showcase-with-slick-slider')) );

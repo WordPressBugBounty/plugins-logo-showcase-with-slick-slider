@@ -20,6 +20,7 @@ $logo_slider_designs	= lswss_logo_slider_designs();
 // Taking some variables
 $gallery_imgs			= get_post_meta( $post->ID, $prefix.'gallery_id', true );
 $display_type 			= get_post_meta( $post->ID, $prefix.'display_type', true );
+$display_type			= isset( $display_type_list[ $display_type ] ) ? $display_type : 'slider';
 $post_sett				= lswss_get_post_sett( $post->ID );
 
 $display_type			= ! empty( $display_type ) ? $display_type : 'slider';
