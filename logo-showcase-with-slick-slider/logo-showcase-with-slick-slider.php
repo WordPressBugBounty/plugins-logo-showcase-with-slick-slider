@@ -8,7 +8,7 @@
  * Domain Path: /languages/
  * Requires at least: 4.7
  * Requires PHP: 5.4
- * Version: 3.2.8
+ * Version: 3.2.9
  * Author URI: https://premium.infornweb.com
  *
  * @package Logo Showcase with Slick Slider
@@ -88,7 +88,7 @@ if ( ! class_exists( 'Lswss_Logo_Showcase' ) )  :
 		 */
 		private function setup_constants() {
 
-			$this->define( 'LSWSS_VERSION', '3.2.8' ); // Version of plugin
+			$this->define( 'LSWSS_VERSION', '3.2.9' ); // Version of plugin
 			$this->define( 'LSWSS_FILE', __FILE__ );
 			$this->define( 'LSWSS_DIR', dirname( __FILE__ ) );
 			$this->define( 'LSWSS_URL', plugin_dir_url( __FILE__ ) );
@@ -134,6 +134,12 @@ if ( ! class_exists( 'Lswss_Logo_Showcase' ) )  :
 
 			// Load Plugin Text Domain
 			$this->lswss_load_textdomain();
+
+			/*
+			 * Plugin Menu Name just to check the screen ID to load condition based assets
+			 * This var is not going to be echo anywhere. `sanitize_title` will take care of string.
+			 */
+			$this->define( 'LSWSS_SCREEN_ID', sanitize_title(__('Logo Showcase', 'logo-showcase-with-slick-slider')) );
 		}
 
 		/**
@@ -142,9 +148,6 @@ if ( ! class_exists( 'Lswss_Logo_Showcase' ) )  :
 		 * @since 1.0
 		 */
 		public function lswss_plugins_loaded() {
-
-			// Plugin Menu Label
-			$this->define( 'LSWSS_SCREEN_ID', sanitize_title(__('Logo Showcase', 'logo-showcase-with-slick-slider')) );
 
 			// Get plugin DB version
 			$plugin_version = get_option( 'lswss_version' );
