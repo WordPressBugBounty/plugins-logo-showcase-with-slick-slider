@@ -8,7 +8,7 @@
  * Domain Path: /languages/
  * Requires at least: 4.7
  * Requires PHP: 5.4
- * Version: 3.2.9
+ * Version: 3.3
  * Author URI: https://premium.infornweb.com
  *
  * @package Logo Showcase with Slick Slider
@@ -88,7 +88,7 @@ if ( ! class_exists( 'Lswss_Logo_Showcase' ) )  :
 		 */
 		private function setup_constants() {
 
-			$this->define( 'LSWSS_VERSION', '3.2.9' ); // Version of plugin
+			$this->define( 'LSWSS_VERSION', '3.3' ); // Version of plugin
 			$this->define( 'LSWSS_FILE', __FILE__ );
 			$this->define( 'LSWSS_DIR', dirname( __FILE__ ) );
 			$this->define( 'LSWSS_URL', plugin_dir_url( __FILE__ ) );
