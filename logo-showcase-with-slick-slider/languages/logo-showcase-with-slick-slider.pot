@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Logo Showcase with Slick Slider\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-24 19:54+0000\n"
+"POT-Creation-Date: 2026-01-04 12:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,7 +15,7 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.4.0; wp-5.4.2"
 
-#: includes/admin/metabox/lswss-sett-metabox.php:39
+#: includes/admin/metabox/lswss-sett-metabox.php:40
 msgid "Add Images to Logo Showcase"
 msgstr ""
 
@@ -27,7 +27,7 @@ msgstr ""
 msgid "Add New Logo Showcase"
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:39
+#: includes/admin/metabox/lswss-sett-metabox.php:40
 msgid "Add to Logo Showcase"
 msgstr ""
 
@@ -49,11 +49,11 @@ msgstr ""
 msgid "Alternative Text"
 msgstr ""
 
-#: includes/class-lswss-script.php:53
+#: includes/class-lswss-script.php:59
 msgid "Are you sure to remove all logo images from here!"
 msgstr ""
 
-#: includes/class-lswss-script.php:49
+#: includes/class-lswss-script.php:55
 msgid "Are you sure you want to do this?"
 msgstr ""
 
@@ -97,13 +97,13 @@ msgstr ""
 msgid "Changes saved successfully."
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:63
+#: includes/admin/metabox/lswss-sett-metabox.php:64
 msgid ""
 "Choose images for logo showcase. Hold Ctrl key to select multiple images at "
 "a time."
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:39
+#: includes/admin/metabox/lswss-sett-metabox.php:40
 msgid "Choose Logo Images"
 msgstr ""
 
@@ -147,19 +147,19 @@ msgstr ""
 msgid "Dots"
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:53
+#: includes/admin/metabox/lswss-sett-metabox.php:54
 msgid "Edit Image"
 msgstr ""
 
-#: includes/class-lswss-script.php:50
+#: includes/class-lswss-script.php:56
 msgid "Edit Image in a Popup"
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:52
+#: includes/admin/metabox/lswss-sett-metabox.php:53
 msgid "Edit Image in Popup"
 msgstr ""
 
-#: includes/class-lswss-script.php:51
+#: includes/class-lswss-script.php:57
 msgid "Edit Image via Attachment Page"
 msgstr ""
 
@@ -209,7 +209,7 @@ msgid "Enter logo image alternative text."
 msgstr ""
 
 #: includes/admin/metabox/popup/lswss-img-popup-data.php:61
-msgid "Enter logo link. e.g. https://premium.infornweb.com"
+msgid "Enter logo link. e.g. https://infornweb.com"
 msgstr ""
 
 #: includes/admin/metabox/popup/lswss-img-popup-data.php:37
@@ -243,7 +243,7 @@ msgstr ""
 msgid "For more designs, please take a look at %spremium demo%s."
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:85
+#: includes/admin/metabox/lswss-sett-metabox.php:86
 #, php-format
 msgid ""
 "For more layouts like Logo Ticker, Logo List, Logo Masonry, Logo Table and "
@@ -260,11 +260,11 @@ msgid "General Settings"
 msgstr ""
 
 #. Author URI of the plugin
-msgid "https://premium.infornweb.com"
+msgid "https://infornweb.com"
 msgstr ""
 
 #. URI of the plugin
-msgid "https://premium.infornweb.com/logo-showcase-with-slick-slider-pro/"
+msgid "https://infornweb.com/logo-showcase-with-slick-slider-pro/"
 msgstr ""
 
 #: includes/admin/class-lswss-admin.php:96
@@ -292,7 +292,7 @@ msgstr ""
 msgid "Logo Image Maximum Height"
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:36
+#: includes/admin/metabox/lswss-sett-metabox.php:37
 msgid "Logo Images"
 msgstr ""
 
@@ -320,7 +320,7 @@ msgstr ""
 msgid "Logo Link Behavior"
 msgstr ""
 
-#: logo-showcase-with-slick-slider.php:145 includes/lswss-post-types.php:21
+#: logo-showcase-with-slick-slider.php:142 includes/lswss-post-types.php:21
 #: includes/lswss-post-types.php:22 includes/lswss-post-types.php:31
 msgid "Logo Showcase"
 msgstr ""
@@ -350,7 +350,7 @@ msgstr ""
 msgid "Logo Showcase Design"
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:68
+#: includes/admin/metabox/lswss-sett-metabox.php:69
 msgid "Logo Showcase Display Type"
 msgstr ""
 
@@ -452,7 +452,7 @@ msgstr ""
 msgid "New Logo Showcase"
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:61
+#: includes/admin/metabox/lswss-sett-metabox.php:62
 msgid "No logo images selected."
 msgstr ""
 
@@ -536,12 +536,12 @@ msgstr ""
 msgid "Query Settings"
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:40
+#: includes/admin/metabox/lswss-sett-metabox.php:41
 msgid "Remove All Logo Images"
 msgstr ""
 
-#: includes/class-lswss-script.php:52
-#: includes/admin/metabox/lswss-sett-metabox.php:54
+#: includes/class-lswss-script.php:58
+#: includes/admin/metabox/lswss-sett-metabox.php:55
 msgid "Remove Image"
 msgstr ""
 
@@ -558,7 +558,7 @@ msgstr ""
 msgid "Select logo showcase design."
 msgstr ""
 
-#: includes/admin/metabox/lswss-sett-metabox.php:84
+#: includes/admin/metabox/lswss-sett-metabox.php:85
 msgid "Select logo showcase display type."
 msgstr ""
 
@@ -663,7 +663,6 @@ msgid "Tooltip Settings"
 msgstr ""
 
 #: includes/admin/lswss-db-upgrade.php:181
-#, php-format
 msgid "Total %d Logo Showcase found for update."
 msgstr ""
 

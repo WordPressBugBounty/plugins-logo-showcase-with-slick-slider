@@ -55,7 +55,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								?>
 							</select><br/>
 							<span class="description"><?php _e('Select logo showcase design.', 'logo-showcase-with-slick-slider'); ?></span><br />
-							<span class="description"><i class="dashicons dashicons-lock"></i> <?php echo sprintf( __('For more designs, please take a look at %spremium demo%s.', 'logo-showcase-with-slick-slider'), '<a href="https://premium.infornweb.com/logo-grid-designs/" target="_blank">', '</a>' ); ?></span>
+							<span class="description"><i class="dashicons dashicons-lock"></i> <?php echo sprintf( __('For more designs, please take a look at %spremium demo%s.', 'logo-showcase-with-slick-slider'), '<a href="https://infornweb.com/logo-grid-designs/" target="_blank">', '</a>' ); ?></span>
 						</td>
 					</tr>
 					<tr>

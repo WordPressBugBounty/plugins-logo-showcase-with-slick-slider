@@ -58,7 +58,7 @@ $attachment_link 	= get_post_meta( $attachment_id, $prefix.'attachment_link', tr
 				<th><label for="lswssp-attachment-link"><?php _e('Logo Link', 'logo-showcase-with-slick-slider'); ?></label></th>
 				<td>
 					<input type="text" name="lswss_attachment_link" value="<?php echo esc_url( $attachment_link ); ?>" class="large-text lswssp-attachment-link" id="lswssp-attachment-link" />
-					<span class="description"><?php _e('Enter logo link. e.g. https://premium.infornweb.com', 'logo-showcase-with-slick-slider'); ?></span>
+					<span class="description"><?php _e('Enter logo link. e.g. https://infornweb.com', 'logo-showcase-with-slick-slider'); ?></span>
 				</td>
 			</tr>
 

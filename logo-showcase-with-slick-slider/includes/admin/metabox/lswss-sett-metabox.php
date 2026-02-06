@@ -83,7 +83,7 @@ $upgrade_link			= add_query_arg( array('page' => 'logo-showcase-with-slick-slide
 					</select>
 					<br />
 					<span class="description"><?php _e('Select logo showcase display type.', 'logo-showcase-with-slick-slider'); ?></span><br /><br />
-					<span class="description"><i class="dashicons dashicons-lock"></i> <?php echo sprintf( __('For more layouts like Logo Ticker, Logo List, Logo Masonry, Logo Table and etc, please %scheck premium demo%s.', 'logo-showcase-with-slick-slider'), '<a href="https://premium.infornweb.com/logo-showcase-with-slick-slider-pro/" target="_blank">', '</a>' ); ?></span>
+					<span class="description"><i class="dashicons dashicons-lock"></i> <?php echo sprintf( __('For more layouts like Logo Ticker, Logo List, Logo Masonry, Logo Table and etc, please %scheck premium demo%s.', 'logo-showcase-with-slick-slider'), '<a href="https://infornweb.com/logo-showcase-with-slick-slider-pro/" target="_blank">', '</a>' ); ?></span>
 				</td>
 			</tr>
 		</tbody>

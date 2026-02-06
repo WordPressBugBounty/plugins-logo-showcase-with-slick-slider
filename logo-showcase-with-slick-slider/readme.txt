@@ -1,10 +1,10 @@
 === Logo Showcase - Responsive Logo Carousel, Logo Slider & Logo Grid ===
-Contributors: infornweb, pluginandplay
+Contributors: infornweb, aadhya9
 Tags: logo showcase, logo slider, logo carousel, client logo slider, client logo carousel
 Requires at least: 4.7
-Tested up to: 6.8.2
+Tested up to: 6.9
 Requires PHP: 5.4
-Stable tag: 3.3.2
+Stable tag: 3.3.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,7 @@ Create clients, partners or sponsors responsive Logo Slider, Logo Carousel or Lo
 
 = ✅ Logo Showcase with Slick Slider having: =
 
-* Adding multiple logo image. 
+* Adding multiple logo image.
 * Logo drag and drop order change.
 * Title for logo.
 * Caption for logo.
@@ -32,7 +32,7 @@ Using Logo Showcase with Slick Slider plugin creating a carousel slider of logos
 
 View [FREE DEMO](https://demo.infornweb.com/slick-logo-showcase-demo/) for more details.
 
-Checkout [Premium Version Demo](https://premium.infornweb.com/logo-showcase-with-slick-slider-pro/) | [Buy Premium Version](https://premium.infornweb.com/logo-showcase-with-slick-slider-pro/) for more designs and options.
+Checkout [Premium Version Demo](https://infornweb.com/logo-showcase-with-slick-slider-pro/) | [Buy Premium Version](https://infornweb.com/logo-showcase-with-slick-slider-pro/) for more designs and options.
 
 Logo Showcase with Slick Slider is a beautiful logo showcase and clients logo gallery plugin that allows you to display a group of logo images in a visually appealing layout through an intuitive Shortcode Generator. It’s very user-friendly and convenient to manage & display the logo images in your any WordPress site.
 
@@ -74,9 +74,9 @@ Logo Showcase with Slick Slider is a beautiful logo showcase and clients logo ga
 > * Elementor Page Builder support.
 > * Slider RTL support.
 > * 100% Multi language.
-> * Many more other features also…
+> * Many more other features also...
 >
-> View [PRO DEMO and Features](https://premium.infornweb.com/logo-showcase-with-slick-slider-pro/) for additional information.
+> View [PRO DEMO and Features](https://infornweb.com/logo-showcase-with-slick-slider-pro/) for additional information.
 >
 
 = ✅ Benefits of using our Logo Showcase on your website: =
@@ -104,10 +104,10 @@ Before you dive into creating logo Showcase i.e a logo slider, logo carousel or 
 
 If you find this plugin useful to display logo in carousel, slider and grid view, please leave a good rating and consider checking out our other plugins:
 
-* <a href="https://premium.infornweb.com/news-blog-designer-pack-pro/" rel="friend" title="News & Blog Designer Pack - WordPress Blog Plugin">News & Blog Designer Pack Pro</a> - A WordPress Blog & News Plugin
-* <a href="https://premium.infornweb.com/post-slider-and-carousel-pro/" rel="friend" title="Post Slider and Carousel with Widget - A Responsive Post Slider">Post Slider and Carousel with Widget</a> - A Responsive Post Slider and Post Carousel Plugin
-* <a href="https://premium.infornweb.com/logo-showcase-with-slick-slider-pro/" rel="friend" title="Logo Showcase with Slick Slider – Logo Carousel, Logo Slider & Logo Grid">Logo Showcase with Slick Slider</a> - Logo Carousel, Logo Slider & Logo Grid Plugin
-* <a href="https://premium.infornweb.com/post-list-designer-pro/" rel="friend" title="Posts List Designer by Category - List Category Posts Or Recent Posts">Posts List Designer by Category</a> - Display Posts by Category in a List View
+* <a href="https://infornweb.com/news-blog-designer-pack-pro/" rel="friend" title="News & Blog Designer Pack - WordPress Blog Plugin">News & Blog Designer Pack Pro</a> - A WordPress Blog & News Plugin
+* <a href="https://infornweb.com/post-slider-and-carousel-pro/" rel="friend" title="Post Slider and Carousel with Widget - A Responsive Post Slider">Post Slider and Carousel with Widget</a> - A Responsive Post Slider and Post Carousel Plugin
+* <a href="https://infornweb.com/logo-showcase-with-slick-slider-pro/" rel="friend" title="Logo Showcase with Slick Slider – Logo Carousel, Logo Slider & Logo Grid">Logo Showcase with Slick Slider</a> - Logo Carousel, Logo Slider & Logo Grid Plugin
+* <a href="https://infornweb.com/post-list-designer-pro/" rel="friend" title="Posts List Designer by Category - List Category Posts Or Recent Posts">Posts List Designer by Category</a> - Display Posts by Category in a List View
 
 == Installation ==
 1. Upload the 'logo-showcase-with-slick-slider' folder to the '/wp-content/plugins/' directory.
@@ -149,6 +149,17 @@ Yes, Logo Showcase with Slick Slider will work with any WordPress themes. If you
 
 
 == Changelog ==
+
+= 3.3.5 (04 Jan, 2026) =
+* [*] Updated plugin website links.
+
+= 3.3.4 (06 Dec, 2025) =
+* [*] Check compatibility with WordPress 6.9
+* [*] Update Freemius SDK to latest version 2.13.0
+
+= 3.3.3 (21 Oct, 2025) =
+* [*] Check compatibility with WordPress 6.8.3
+* [*] Check compatibility with PHP version 8.3.26
 
 = 3.3.2 (23 Sept, 2025) =
 * [*] Update Freemius SDK to latest version 2.12.2

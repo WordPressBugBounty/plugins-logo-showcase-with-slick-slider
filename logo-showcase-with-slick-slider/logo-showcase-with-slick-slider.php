@@ -1,15 +1,15 @@
 <?php
 /**
  * Plugin Name: Logo Showcase with Slick Slider
- * Plugin URI: https://premium.infornweb.com/logo-showcase-with-slick-slider-pro/
+ * Plugin URI: https://infornweb.com/logo-showcase-with-slick-slider-pro/
  * Description: Create clients or sponsor's Logo Slider, Logo Carousel, Logo Grid, Logo Masonry, Logo Ticker and etc on website. Display Logo Showcase with simple shortcode and settings. No Coding Required!
  * Author: InfornWeb
  * Text Domain: logo-showcase-with-slick-slider
  * Domain Path: /languages/
  * Requires at least: 4.7
  * Requires PHP: 5.4
- * Version: 3.3.2
- * Author URI: https://premium.infornweb.com
+ * Version: 3.3.5
+ * Author URI: https://infornweb.com
  *
  * @package Logo Showcase with Slick Slider
  * @author InfornWeb
@@ -88,7 +88,7 @@ if ( ! class_exists( 'Lswss_Logo_Showcase' ) )  :
 		 */
 		private function setup_constants() {
 
-			$this->define( 'LSWSS_VERSION', '3.3.2' ); // Version of plugin
+			$this->define( 'LSWSS_VERSION', '3.3.5' ); // Version of plugin
 			$this->define( 'LSWSS_FILE', __FILE__ );
 			$this->define( 'LSWSS_DIR', dirname( __FILE__ ) );
 			$this->define( 'LSWSS_URL', plugin_dir_url( __FILE__ ) );
