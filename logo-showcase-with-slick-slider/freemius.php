@@ -47,6 +47,9 @@ if ( ! function_exists( 'lswss_fs' ) ) {
 	// Init Freemius.
 	lswss_fs();
 
+	// Display yearly pricing
+	lswss_fs()->add_filter( 'pricing/show_annual_in_monthly', '__return_false' );
+
 	// Signal that SDK was initiated.
 	do_action( 'lswss_fs_loaded' );
 }

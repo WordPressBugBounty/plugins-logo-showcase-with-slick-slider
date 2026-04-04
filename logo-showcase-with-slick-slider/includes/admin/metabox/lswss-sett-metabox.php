@@ -10,8 +10,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-global $post;
+global $post, $wp_version;
 
+$wrap_cls				= '';
 $prefix					= LSWSS_META_PREFIX; // Metabox prefix
 $display_type_list		= lswss_display_type();
 $logo_grid_designs		= lswss_logo_grid_designs();
@@ -27,9 +28,14 @@ $display_type			= ! empty( $display_type ) ? $display_type : 'slider';
 $no_img_cls				= ! empty( $gallery_imgs ) ? 'lswssp-hide' : '';
 $style_mngr_link		= add_query_arg( array( 'post_type' => LSWSS_POST_TYPE, 'page' => 'lswssp-styles' ), admin_url( 'edit.php' ) );
 $upgrade_link			= add_query_arg( array('page' => 'logo-showcase-with-slick-slider-pricing'), admin_url('admin.php') );
+
+// Version 7 compatibility
+if ( version_compare( $wp_version, '7.0', '>=' ) ) {
+	$wrap_cls = 'lswssp-wrap-v7';
+}
 ?>
 
-<div class="lswssp-wrap lswssp-sett-wrap lswssp-clearfix">
+<div class="lswssp-wrap lswssp-sett-wrap <?php echo esc_attr( $wrap_cls ); ?> lswssp-clearfix">
 	<table class="form-table lswssp-tbl lswssp-post-sett-table">
 		<tbody>
 			<tr>

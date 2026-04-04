@@ -9,9 +9,18 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
+
+global $wp_version;
+
+$wrap_cls = '';
+
+// Version 7 compatibility
+if ( version_compare( $wp_version, '7.0', '>=' ) ) {
+	$wrap_cls = 'lswssp-wrap-v7';
+}
 ?>
 
-<div class="lswssp-img-data-wrp lswssp-hide">
+<div class="lswssp-img-data-wrp lswssp-hide <?php echo esc_attr( $wrap_cls ); ?>">
 	<div class="lswssp-img-data-cnt">
 
 		<div class="lswssp-img-cnt-block">
